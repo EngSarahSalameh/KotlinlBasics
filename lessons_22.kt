@@ -1,8 +1,9 @@
+//#lesson_22 (variables scope)
+
 var name = "Sarah Salameh Public" //** public variable you can access it from any block
 
 fun main(args: Array<String>){
 
-//#lesson_22 (variables scope)
     var name = "Sarah Salameh" //** only this block can see variable name
     //** to make the variable public define it above all functions
     showName()
